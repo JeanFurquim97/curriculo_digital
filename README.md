@@ -4,7 +4,7 @@
 ## Descrição
 
 Este projeto é um currículo digital interativo e moderno, desenvolvido para apresentar minhas habilidades, experiências e projetos de forma dinâmica e acessível. O objetivo é fornecer uma visão abrangente do meu perfil profissional, destacando minhas competências em desenvolvimento web e outras áreas relacionadas.
-[vercel](https://curriculo-digital-jean-oliveira.vercel.app/)
+[vercel](https://curriculo-digital-jean-oliveira.vercel.app/ "confirir projeto")
 
 ## Tecnologias Utilizadas
 
