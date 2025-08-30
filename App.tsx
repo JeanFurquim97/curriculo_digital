@@ -136,7 +136,7 @@ const SkillCategoryItem: React.FC<{ category: SkillCategory }> = ({ category }) 
   <div>
     <h4 className="font-semibold text-md mb-2 text-black">{category.name}</h4>
     <div className="flex flex-wrap gap-2">
-      {category.skills.map((skill, i) => <SkillBadge key={i} text={skill} />)}
+      {category.skills.map((skill, i) => <SkillBadge key={i} skill={skill} />)}
     </div>
   </div>
 );

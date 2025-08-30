@@ -33,7 +33,7 @@ export interface Education {
 
 export interface SkillCategory {
   name: string;
-  skills: string[];
+  skills: (string | { name: string; color: string })[];
 }
 
 export interface Language {

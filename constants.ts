@@ -104,10 +104,10 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   skills: [
-    { name: 'Linguagens', skills: ['Python', 'JavaScript'] },
-    { name: 'Frameworks & Bibliotecas', skills: ['React', 'Vue.js', 'Flask', 'Next.js'] },
-    { name: 'Ferramentas & Plataformas', skills: ['Docker', 'GitHub', 'n8n', 'Google Gemini API'] },
-    { name: 'Áreas', skills: ['Automação', 'Big Data', 'Suporte Técnico', 'Manutenção de Hardware'] },
+    { name: 'Linguagens', skills: [{name: 'Python', color: '#3776AB'}, {name: 'JavaScript', color: '#FFD43B'}] },
+    { name: 'Frameworks & Bibliotecas', skills: [{name: 'React', color: '#61DAFB'}, {name: 'Vue.js', color: '#4FC08D'}, {name: 'Flask', color: '#000000'}, {name: 'Next.js', color: '#000000'}] },
+    { name: 'Ferramentas & Plataformas', skills: [{name: 'Docker', color: '#2496ED'}, {name: 'GitHub', color: '#181717'}, {name: 'n8n', color: '#F05A28'}, {name: 'Google Gemini API', color: '#673AB7'}] },
+    { name: 'Áreas', skills: [{name: 'Automação', color: '#2ECC71'}, {name: 'Big Data', color: '#1F77B4'}, {name: 'Suporte Técnico', color: '#007ACC'}, { name: 'Manutenção de Hardware', color: '#7D7D7D' }] },
   ],
   languages: [
     { name: 'Inglês', level: 'B1 - Intermediário', proficiency: 60 },
