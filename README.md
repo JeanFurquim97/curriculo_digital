@@ -1,10 +1,12 @@
 # Jean Carlos Oliveira - Currículo Digital
 
 <img width="1347" height="541" alt="image" src="https://github.com/user-attachments/assets/13fd7771-806c-439f-bd69-7dc423830db0" />
-## Descrição
 
+## Descrição
 Este projeto é um currículo digital interativo e moderno, desenvolvido para apresentar minhas habilidades, experiências e projetos de forma dinâmica e acessível. O objetivo é fornecer uma visão abrangente do meu perfil profissional, destacando minhas competências em desenvolvimento web e outras áreas relacionadas.
-[vercel](https://curriculo-digital-jean-oliveira.vercel.app/ "confirir projeto")
+
+## Acessar o projeto
+### [Vercel](https://curriculo-digital-jean-oliveira.vercel.app/ "confirir projeto")
 
 ## Tecnologias Utilizadas
 
