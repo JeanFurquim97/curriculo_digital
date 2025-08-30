@@ -6,6 +6,7 @@
 Este projeto é um currículo digital interativo e moderno, desenvolvido para apresentar minhas habilidades, experiências e projetos de forma dinâmica e acessível. O objetivo é fornecer uma visão abrangente do meu perfil profissional, destacando minhas competências em desenvolvimento web e outras áreas relacionadas.
 
 ## Acessar o projeto
+O projeto foi implantado tanto na Vercel quanto na Netlify, explorando as diferenças entre provedores e garantindo alternativas de acesso.
 ### [Vercel](https://curriculo-digital-jean-oliveira.vercel.app/ "Abrir a aplicação")
 ### [Netlify](https://curriculo-digital-jean-oliveira.netlify.app/ "Abrir a aplicação")
 
