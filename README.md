@@ -1,4 +1,4 @@
-# Jean Carlos Oliveira - Currículo Digital
+# Currículo Digital
 
 <img width="1347" height="541" alt="image" src="https://github.com/user-attachments/assets/13fd7771-806c-439f-bd69-7dc423830db0" />
 
