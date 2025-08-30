@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Contact } from '../types';
-
 import { motion } from 'framer-motion';
+import toast from 'react-hot-toast';
 
 interface HeaderProps {
   name: string;
@@ -22,8 +22,12 @@ const GithubIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 mr-2 inline-block align-middle"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/></svg>
 );
 
-
 export const Header: React.FC<HeaderProps> = ({ name, title, contact }) => {
+  const handleCopy = (text: string, type: string) => {
+    navigator.clipboard.writeText(text);
+    toast.success(`${type} copiado para a área de transferência!`);
+  };
+
   return (
     <header className="bg-gray-50 p-8 md:p-12 border-b border-gray-200">
       <div className="text-center">
@@ -32,20 +36,20 @@ export const Header: React.FC<HeaderProps> = ({ name, title, contact }) => {
         <p className="text-xl md:text-2xl text-gray-600 mt-2">{title}</p>
       </div>
       <div className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-gray-600">
-        <motion.a 
-          href={`mailto:${contact.email}`}
-          className="hover:text-black transition-colors"
+        <motion.div 
+          onClick={() => handleCopy(contact.email, 'Email')}
+          className="hover:text-black transition-colors cursor-pointer"
           whileHover={{ scale: 1.05 }}
         >
             <MailIcon/> {contact.email}
-        </motion.a>
-        <motion.a 
-          href={`tel:${contact.phone}`}
-          className="hover:text-black transition-colors"
+        </motion.div>
+        <motion.div 
+          onClick={() => handleCopy(contact.phone, 'Telefone')}
+          className="hover:text-black transition-colors cursor-pointer"
           whileHover={{ scale: 1.05 }}
         >
             <PhoneIcon/> {contact.phone}
-        </motion.a>
+        </motion.div>
         <motion.a 
           href={contact.linkedin}
           target="_blank"

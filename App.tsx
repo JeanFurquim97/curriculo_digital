@@ -9,10 +9,12 @@ import { SkillBadge } from './components/SkillBadge';
 import ScrollToTopButton from './components/ScrollToTopButton';
 
 import { motion } from 'framer-motion';
+import { Toaster } from 'react-hot-toast';
 
 const App: React.FC = () => {
   return (
     <main className="min-h-screen bg-white text-black font-sans p-4 sm:p-6 md:p-8">
+      <Toaster position="top-center" reverseOrder={false} />
       <motion.div 
         className="max-w-4xl mx-auto bg-gray-100 shadow-2xl rounded-xl overflow-hidden"
         initial={{ opacity: 0, y: 20 }}
