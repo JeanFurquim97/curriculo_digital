@@ -85,7 +85,6 @@ const App: React.FC = () => {
   );
 };
 
-// Sub-components defined outside App to prevent re-renders
 const ExperienceItem: React.FC<{ item: Experience }> = ({ item }) => (
   <div className="mb-6">
     <div className="flex justify-between items-baseline">
